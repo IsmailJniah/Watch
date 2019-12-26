@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		21BEC06823B518FD00ACAEE0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21BEC06723B518FD00ACAEE0 /* main.cpp */; };
+		21BEC07023B51B6100ACAEE0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21BEC06F23B51B6100ACAEE0 /* OpenGL.framework */; };
+		21BEC07223B51B6700ACAEE0 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21BEC07123B51B6700ACAEE0 /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		21BEC06423B518FD00ACAEE0 /* Watch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Watch; sourceTree = BUILT_PRODUCTS_DIR; };
 		21BEC06723B518FD00ACAEE0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		21BEC06F23B51B6100ACAEE0 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		21BEC07123B51B6700ACAEE0 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21BEC07223B51B6700ACAEE0 /* GLUT.framework in Frameworks */,
+				21BEC07023B51B6100ACAEE0 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +49,7 @@
 			children = (
 				21BEC06623B518FD00ACAEE0 /* Watch */,
 				21BEC06523B518FD00ACAEE0 /* Products */,
+				21BEC06E23B51B6100ACAEE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +67,15 @@
 				21BEC06723B518FD00ACAEE0 /* main.cpp */,
 			);
 			path = Watch;
+			sourceTree = "<group>";
+		};
+		21BEC06E23B51B6100ACAEE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21BEC07123B51B6700ACAEE0 /* GLUT.framework */,
+				21BEC06F23B51B6100ACAEE0 /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
